@@ -5,28 +5,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
   </head>
   <body>
-    <section id="Home">
-      <div class="navbar">
-        <nav>
-          <a href="index.html" class="logo">Web Profile</a>
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Skill</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+    <div class="container">
+      <section id="Home">
+        <div class="navbar">
+          <nav>
+            <a href="index.html" class="logo">Portofolio</a>
+            <ul>
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skill">Skill</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
 
-      <div class="home">
-        <p>Halo</p>
-        <p>I'm Uston</p>
-        <p>web developer programmer at Amikom Purwokerto University</p>
-        <br />
-        <p></p>
-      </div>
-    </section>
+        <div class="home">
+          <p>Hallo</p>
+          <p>I'm Uston Awali</p>
+          <p>Student at Amikom University </p>
+          <br />
+          <p>An atractive boy,with passion,love with new challenges</p>
+          <p>And a fast learner person</p>
+        </div>
+        <img class="picture" src="Assets/aku.png" alt="gambar" />
+      </section>
+
+      <section id="about">
+        <div class="about">
+          <div class="about-desc">
+            <p>About</p>
+            <p>
+                My name is Uston Awali. I am a student at Amikom University Purwokerto. I am 21 years old and still studying Informatics. I am a person who is diligent and responsible for the tasks given to me, likes to seek knowledge and continue to practice so that I can do what I can't yet.
+            </p>
+          </div>
+
+          <div class="row">
+            <div class="column" style="background-color: #ee763f">
+              <h2>Education</h2>
+              <p>My education started from SD Negeri 1 Karangaren, then I continued at SMP N 1 Kutasari and my vocational school at SMK N 1 Purbalingga. Currently I am pursuing a Bachelor's degree in Informatics at Amikom University, Purwokerto</p>
+            </div>
+
+            <div class="column" style="background-color: #cc7e5a">
+              <h2>Organizational experience</h2>
+              <p>My organizational experience was during elementary and middle school, following scouts and OSIS, then in vocational school, following nature lovers' organizations, in the community, following youth organizations, ipnu and mosque youth.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skill">
+        <div class="skill">
+          <div class="skill-desc">
+            <p>Skill</p>
+            <p>This is My Skill!!!</p>
+          </div>
+
+          <div class="box-container">
+            <div class="box-1">
+              <span>1</span>
+              <p>Web Developer</p>
+              <p>A web developer is a programmer whose job is to create and develop websites or the world wide web. designing a website from scratch, creating coding, etc., or it can also be a web developer developing a website that already exists.</p>
+            </div>
+
+            <div class="box-2">
+              <span>2</span>
+              <p>Web Design</p>
+              <p>someone who creates the overall look and 'feel' of a website, when used by users. This includes the process of planning and creating website elements, from layout structure, images, colors, fonts, to graphics and is responsible for the appearance of the website</p>
+            </div>
+
+            <div class="box-3">
+              <span>3</span>
+              <p>UI UX Design</p>
+              <p>UI Design creates the appearance of the product that we want to show (which is visible or can be seen by the eye). while UX design is the process of creating a smooth and intuitive experience when users use websites or applications.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="contact">
+          <div class="contact-desc">
+            <p>Contact</p>
+            <p>Thank you for visiting my profile. If you would like to contact me, please fill out the form below..</p>
+          </div>
+
+          <form action="form.html">
+            <label for="fname">Nama Depan</label>
+            <input type="text" name="namadepan" id="fname" placeholder="Nama Depan" />
+            <label for="bname">Nama Belakang</label>
+            <input type="text" name="namabelakang" id="fname" placeholder="Nama Belakang" />
+            <label for="fname">Subject</label>
+            <input type="text" name="subject" id="subject" placeholder="Nama Depan" />
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+
+      <footer>
+        <p>Interest with me?</p>
+        <p>
+            Please contact me on my social media contacts below
+        </p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+      </footer>
+   
   </body>
 </html>
